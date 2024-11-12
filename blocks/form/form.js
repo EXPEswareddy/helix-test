@@ -43,6 +43,7 @@ async function submitForm(form) {
     cache: 'no-cache',
     headers: {
       'Content-Type': 'application/json',
+      'Access-Control-Allow-Origin': '*',
     },
     body: JSON.stringify({ data: payload }),
   });
