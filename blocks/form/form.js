@@ -42,9 +42,9 @@ async function submitForm(form) {
     method: 'POST',
     cache: 'no-cache',
     headers: {
-      'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*',
-      "Access-Control-Allow-Headers": '*',
+       "access-control-allow-origin": "*",
+      'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+      'Access-Control-Allow-Methods': '*',
     },
     body: JSON.stringify({ data: payload }),
   });
