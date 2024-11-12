@@ -44,6 +44,7 @@ async function submitForm(form) {
     headers: {
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin': '*',
+      "Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization",
     },
     body: JSON.stringify({ data: payload }),
   });
