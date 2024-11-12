@@ -1,7 +1,8 @@
 .*
-*.md
-karma.config.js
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
 LICENSE
-package.json
 package-lock.json
-test/*
+package.json
+README.md
+test/
